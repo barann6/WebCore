@@ -1,0 +1,17 @@
+.highlight::before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    min-height: 40px;
+    min-width: 8px;
+    border-radius: 4px;
+    background-color: #41F6D7;
+}
+
+@media (min-width: 1120px) {
+    .highlight::before {
+        min-width: 3px;
+        left: -1px;
+        border-radius: 2px;
+    }
+}

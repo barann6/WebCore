@@ -1,0 +1,23 @@
+.slide-menu--positions {
+    margin: 0;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+    .slide-menu--positions {
+        margin-top: 32px;
+        margin-left: 24px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .slide-menu--positions {
+        max-height: none;
+        flex-wrap: wrap;
+        overflow: visible;
+        margin-top: 8px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}

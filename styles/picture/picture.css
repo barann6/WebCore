@@ -1,0 +1,20 @@
+.picture {
+    margin-top: 16px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .picture {
+        border-radius: 6px;
+        margin-top: 32px;
+        margin-right: 25px;
+        max-width: 360px;
+    }
+}
+@media (min-width: 1120px) {
+    .picture {
+        margin-top: 10px;
+        margin-right: 25px;
+        max-width: 532px;
+    }
+}

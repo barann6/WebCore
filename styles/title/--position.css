@@ -1,0 +1,18 @@
+.title--position {
+    margin: 0;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 1119.98px) {
+    .title--position {
+        margin-left: 24px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .title--position {
+        margin-top: 42px;
+        margin-left: 32px;
+    }
+}

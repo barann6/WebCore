@@ -1,0 +1,4 @@
+.slide-menu__item--current {
+    border-color: #B8FFEC;
+    background-color: #fff;
+}

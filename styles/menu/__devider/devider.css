@@ -1,0 +1,16 @@
+.menu__devider {
+    min-width: 2px;
+    min-height: 32px;
+    max-width: 2px;
+    max-height: 32px;
+    background-color: #EAEAEA;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .menu__devider{
+        margin-left: 20px;
+        margin-right: 20px;
+    }    
+}

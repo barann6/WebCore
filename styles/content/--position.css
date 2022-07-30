@@ -1,0 +1,10 @@
+.content--position {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .content--position {
+        display: flex;
+        justify-content: space-between;
+    }    
+}

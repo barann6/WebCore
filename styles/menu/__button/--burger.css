@@ -1,0 +1,12 @@
+.menu__button--burger {
+    background-image: url(/images/burger.svg);
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+@media (min-width: 768px) {
+    .menu__button--burger {
+        margin-right: 0;
+        margin-left: 24px;
+    }
+}

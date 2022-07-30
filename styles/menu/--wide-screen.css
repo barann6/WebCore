@@ -1,0 +1,11 @@
+@media (min-width: 1120px) {
+    .menu--wide-screen{
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        border: none;
+        right: 32px;
+        top: 42px;
+        width: auto;
+        height: auto;
+    }    
+}

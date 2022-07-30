@@ -1,0 +1,4 @@
+.menu__button--profile {
+    background-image: url(/images/profile.svg);
+    margin-left: 16px;
+}

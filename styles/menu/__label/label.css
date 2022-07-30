@@ -1,0 +1,24 @@
+.menu__label {
+    display: none;
+}
+
+@media (min-width: 1120px) {
+    .menu__label {
+        display: block;
+        font-family: 'TT Lakes', sans-serif;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+        text-align: right;
+        margin-right: 9px;
+        margin-left: 16px;
+    }
+
+    .menu__label:hover {
+        color: #ff588a;
+    }
+
+    .menu__label:active {
+        color: #4b4b4b;
+    }
+}
+

@@ -1,0 +1,4 @@
+.menu__button--chat {
+    background-image: url(/images/chat.svg);
+    margin-left: 16px;
+}
