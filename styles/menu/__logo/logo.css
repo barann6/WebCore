@@ -1,9 +1,0 @@
-.menu__logo {
-    margin-right: 16px;
-}
-
-@media (min-width: 1120px) {
-    .menu__logo {
-        display: none;
-    }
-}
