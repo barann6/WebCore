@@ -7,99 +7,63 @@
   <!--?-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CPS Сервис</title>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
   <link type="text/css" href="fonts/TT_Lakes.css" rel="stylesheet">
 
-<!--   <link type="text/css" rel="stylesheet" href="/styles/menu/menu.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/--wide-screen.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/button.css"/>
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--burger.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--call.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--chat.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--profile.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--repair.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--check-status.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--hiden.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__button/--phone-option.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__logo/logo.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__devider/devider.css">
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__devider/--disabled.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/menu/__label/label.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/highlight/highlight.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/title/title.css">
-  <link type="text/css" rel="stylesheet" href="/styles/title/--position.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/slide-menu/slide-menu.css">
-  <link type="text/css" rel="stylesheet" href="/styles/slide-menu/--position.css">
-  <link type="text/css" rel="stylesheet" href="/styles/slide-menu/__item/item.css">
-  <link type="text/css" rel="stylesheet" href="/styles/slide-menu/__item/--current.css">
-  <link type="text/css" rel="stylesheet" href="/styles/slide-menu/__item/--wide-srcreen.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/smoke.css">
-
-  <link type="text/css" rel="stylesheet" href="/styles/content/--position.css">
-  <link type="text/css" rel="stylesheet" href="/styles/content/__article/article.css">
-  <link type="text/css" rel="stylesheet" href="/styles/content/__article/--size.css">
-  <link type="text/css" rel="stylesheet" href="/styles/content/__paragraph/paragraph.css">
-  <link type="text/css" rel="stylesheet" href="/styles/content/__paragraph/--size.css">
-  <link type="text/css" rel="stylesheet" href="/styles/content/__read-more/read-more.css">
-  <link type="text/css" rel="stylesheet" href="/styles/content/__read-more/--position.css">
-  
-  <link type="text/css" rel="stylesheet" href="/styles/picture/picture.css"> -->
-  
   <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 
 <body style="margin: 0; background-color:#F8F8F8;">
-  <header class="menu menu--wide-screen">
-    <button class="menu__button menu__button--burger menu__button--hiden" title="Меню"></button>
-    <div class="menu__devider menu__devider--disabled"></div>
-    <a href="https://barann6.github.io/block_1.3/"><img class="menu__logo" src="images/Logo.svg"></a>
-    <button class="menu__button menu__button--call menu__button--phone-option menu__button--hiden"
-      title="Позвонить"></button>
-    <button class="menu__button menu__button--chat menu__button--phone-option menu__button--hiden"
-      title="Написать в чат"></button>
-    <button class="menu__button menu__button--profile menu__button--phone-option menu__button--hiden"
-      title="Профиль"></button>
-    <div class="menu__devider menu__devider--disabled"></div>
-    <label class="menu__label" for="repair">Оставить заявку</label>
-    <button class="menu__button menu__button--repair" title="Оставить заявку" id="repair"></button>
-    <label class="menu__label" for="status">Статус ремонта</label>
-    <button class="menu__button menu__button--check-status" title="Статус ремонта" id="status"></button>
-  </header>
-  <main>
+  <header>
+    <div class="menu menu--wide-screen">
+      <button class="menu__button menu__button--burger menu__button--hiden" title="Меню"></button>
+      <div class="menu__devider menu__devider--disabled"></div>
+      <a href=""><img class="menu__logo" src="images/Logo.svg"></a>
+      <button class="menu__button menu__button--call menu__button--phone-option menu__button--hiden"
+        title="Позвонить"></button>
+      <button class="menu__button menu__button--chat menu__button--phone-option menu__button--hiden"
+        title="Написать в чат"></button>
+      <button class="menu__button menu__button--profile menu__button--phone-option menu__button--hiden"
+        title="Профиль"></button>
+      <div class="menu__devider menu__devider--disabled"></div>
+      <label class="menu__label" for="repair">Оставить заявку</label>
+      <button class="menu__button menu__button--repair" title="Оставить заявку" id="repair"></button>
+      <label class="menu__label" for="status">Статус ремонта</label>
+      <button class="menu__button menu__button--check-status" title="Статус ремонта" id="status"></button>
+    </div>
     <div class="highlight">
       <h1 class="title title--position">Услуги и сервисы</h1>
     </div>
-    <section class="slide-menu slide-menu--positions">
-      <button class="slide-menu__item slide-menu__item--wide-screen slide-menu__item--current">Ремонтируемые
-        устройства</button>
-      <button class="slide-menu__item slide-menu__item--wide-screen">Дополнительные услуги</button>
-      <button class="slide-menu__item slide-menu__item--wide-screen">Цены на услуги</button>
-      <button class="slide-menu__item slide-menu__item--wide-screen">Специальные цены</button>
-      <button class="slide-menu__item slide-menu__item--wide-screen">Отзывы</button>
-      <button class="slide-menu__item slide-menu__item--wide-screen">Адреса сервисных центров</button>
-      <div class="smoke"></div>
-    </section>
-    <section class="content content--position">
+  </header>
+  <main>
+    <nav>
+      <ul class="slide-menu slide-menu--positions">
+        <li class="slide-menu__item slide-menu__item--wide-screen slide-menu__item--current"><a>Ремонтируемые
+            устройства</a></li>
+        <li class="slide-menu__item slide-menu__item--wide-screen"><a>Дополнительные услуги</a></li>
+        <li class="slide-menu__item slide-menu__item--wide-screen"><a>Цены на услуги</a></li>
+        <li class="slide-menu__item slide-menu__item--wide-screen"><a>Специальные цены</a></li>
+        <li class="slide-menu__item slide-menu__item--wide-screen"><a>Отзывы</a></li>
+        <li class="slide-menu__item slide-menu__item--wide-screen"><a>Адреса сервисных центров</a></li>
+        <div class="smoke"></div>
+      </ul>
+    </nav>
+    <article class="content content--position">
       <div>
         <div class="content__article content__article--size">
-          <p class="content__paragraph content__paragraph--size">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у
+          <p class="content__paragraph content__paragraph--size">Мы являемся авторизованным сервисным центром по ремонту
+            техники Dell. Только у
             нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-          <p class="content__paragraph content__paragraph--size">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
+          <p class="content__paragraph content__paragraph--size">Мы успешно работаем с 1992 года и заслужили репутацию
+            надежного партнера, что
             подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
             и, в свою очередь, советуют нас родным и близким.</p>
         </div>
         <button class="content__read-more content__read-more--position">Читать далee</button>
       </div>
-      <img class="picture" src="images/picture.jpg">
-    </section>
+      <img class="picture" src="images/picture.jpg" alt="Табличка с логотипом компании CPS на стене">
+    </article>
   </main>
 </body>
+
 </html>

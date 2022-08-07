@@ -10,13 +10,12 @@
 
 @media (min-width: 1120px) {
     .menu--wide-screen {
+        float: right;
         background-color: rgba(0, 0, 0, 0);
-        position: absolute;
         border: none;
-        right: 32px;
-        top: 42px;
         width: auto;
         height: auto;
+        margin-right: 31px;
     }
 }
 
@@ -221,6 +220,8 @@
     display: flex;
     overflow: scroll;
     max-height: 40px;
+    list-style: none;
+    padding: 0;
 }
 
 .slide-menu--positions {
@@ -248,6 +249,7 @@
 }
 
 .slide-menu__item {
+    margin: 0;
     box-sizing: border-box;
     display: block;
     border: 2px solid rgba(255, 255, 255, 0);
@@ -259,7 +261,7 @@
     color: #7E7E82;
     text-align: center;
     white-space: nowrap;
-    padding: 0 15px;
+    padding: 4px 15px 0;
     min-height: 40px;
     background-color: rgba(0, 0, 0, 0);
 }
@@ -276,7 +278,7 @@
 
 @media (min-width: 1120px) {
     .slide-menu__item--wide-screen {
-        padding: 4px 21px;
+        padding: 5px 21px 0;
     }
 }
 
