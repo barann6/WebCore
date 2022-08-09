@@ -38,7 +38,7 @@
 }
 
 .menu__button--burger {
-    background-image: url(images/burger.svg);
+    background-image: url(../images/burger.svg);
     margin-right: 16px;
     margin-left: 16px;
 }
@@ -51,27 +51,27 @@
 }
 
 .menu__button--call {
-    background-image: url(images/call.svg);
+    background-image: url(../images/call.svg);
     margin-left: auto;
 }
 
 .menu__button--chat {
-    background-image: url(images/chat.svg);
+    background-image: url(../images/chat.svg);
     margin-left: 16px;
 }
 
 .menu__button--profile {
-    background-image: url(images/profile.svg);
+    background-image: url(../images/profile.svg);
     margin-left: 16px;
 }
 
 .menu__button--repair {
-    background-image: url(images/repair.svg);
+    background-image: url(../images/repair.svg);
     margin-right: 16px;
 }
 
 .menu__button--check-status {
-    background-image: url(images/check-status.svg);
+    background-image: url(../images/check-status.svg);
     margin-right: 16px;
 }
 
@@ -369,7 +369,7 @@
     width: 132px;
     border: 0;
     padding: 0;
-    background: rgba(0, 0, 0, 0) url(images/icon_read.svg) 8px center no-repeat;
+    background: rgba(0, 0, 0, 0) url(../images/icon_read.svg) 8px center no-repeat;
 }
 
 .content__read-more--position {
