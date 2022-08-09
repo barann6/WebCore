@@ -156,9 +156,12 @@
 
 .langs {
     display: flex;
+    list-style: none;
+    padding: 0;
 }
 
 .langs--position {
+    margin: 0;
     margin-top: 40px;
     margin-left: 24px;
     margin-bottom: 32px;
@@ -168,6 +171,7 @@
     margin-right: 8px;
     
     display: block;
+    padding: 0;
     text-decoration: none;
     font-family: TT Lakes;
     font-size: 16px;
@@ -197,14 +201,16 @@
     border-radius: 4px;
     opacity: 0;
     animation-fill-mode: forwards;
-    transition-duration: 500ms;
+    transition-duration: 1200ms;
 }
 
-.list__item:nth-child(1):hover ~ .hightlite {opacity: 1; transform: translateY(115px)}
-.list__item:nth-child(2):hover ~ .hightlite {opacity: 1; transform: translateY(171px)}
-.list__item:nth-child(3):hover ~ .hightlite {opacity: 1; transform: translateY(227px)}
-.list__item:nth-child(4):hover ~ .hightlite {opacity: 1; transform: translateY(283px)}
-.list__item:nth-child(5):hover ~ .hightlite {opacity: 1; transform: translateY(339px)}
-.list__item:nth-child(6):hover ~ .hightlite {opacity: 1; transform: translateY(395px)}
-.list__item:nth-child(7):hover ~ .hightlite {opacity: 1; transform: translateY(451px)}
-.list__item:nth-child(8):hover ~ .hightlite {opacity: 1; transform: translateY(507px)}
+
+
+.list__item:nth-child(1):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(115px)}
+.list__item:nth-child(2):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(171px)}
+.list__item:nth-child(3):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(227px)}
+.list__item:nth-child(4):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(283px)}
+.list__item:nth-child(5):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(339px)}
+.list__item:nth-child(6):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(395px)}
+.list__item:nth-child(7):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(451px)}
+.list__item:nth-child(8):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(507px)}
