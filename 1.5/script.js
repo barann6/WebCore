@@ -42,11 +42,11 @@ swiperCard()
 window.addEventListener('resize', swiperCard)
 
 const showButton = document.querySelector('.brends__show-all')
-const wraper = document.querySelector('.brends__list-wrapper')
+const wraper = document.styleSheets[2].cssRules[9].cssRules[0]
 
 const showMore = () => {
-  if (window.getComputedStyle(wraper).getPropertyValue('height') === '160px') {
-    wraper.style.setProperty('height', 'fit-content')
+  if (wraper.style.getPropertyValue('height') === '160px') {
+    wraper.style.setProperty('height', 'auto')
     showButton.style.setProperty('--transform-rotate', 'rotate(180deg)')
     showButton.textContent = 'Скрыть'
   } else {
