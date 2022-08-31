@@ -42,7 +42,7 @@ const swiperCard = () => {
 swiperCard()
 window.addEventListener('resize', swiperCard)
 
-const showButton = document.querySelector('.brends__show-all')
+const showButton = document.querySelector('.show-all')
 const wraper = document.styleSheets[2].cssRules[9].cssRules[0]
 
 const showMore = () => {
