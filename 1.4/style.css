@@ -200,10 +200,8 @@
     background-color: #41F6D7;
     border-radius: 4px;
     opacity: 0;
-    animation-fill-mode: forwards;
     transition-duration: 1200ms;
 }
-
 
 
 .list__item:nth-child(1):hover ~ .hightlite {opacity: 1; transition-duration: 500ms; transform: translateY(115px)}

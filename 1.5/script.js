@@ -9,6 +9,7 @@ const swiperCard = () => {
       direction: 'horizontal',
       freeMode: true,
       preventClicks: true,
+      spaceBetween: 16,
 
       pagination: {
         el: '.swiper-pagination',
