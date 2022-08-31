@@ -88,12 +88,11 @@
 
 .brends__list-item {
   box-sizing: border-box;
-  padding-left: 16px;
   padding-top: 16px;
 }
 
-.brends__list-item:last-child {
-  padding-right: 16px;
+.brends__list-item:first-child {
+  padding-left: 16px;
 }
 
 @media (min-width: 768px) {
@@ -101,7 +100,7 @@
     padding: 0;
   }
   
-  .brends__list-item:last-child {
+  .brends__list-item:first-child {
     padding: 0;
   }
 }
