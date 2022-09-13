@@ -4,4 +4,4 @@
 
 # **БЛОК 1.5 -** https://barann6.github.io/WebCore/1.5/
 
-# **БЛОК 1.6 -** https://barann6.github.io/WebCore/1.6/dist
+# **БЛОК 1.6 -** https://barann6.github.io/WebCore/1.6/
