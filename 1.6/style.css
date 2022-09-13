@@ -485,12 +485,16 @@ body {
   margin-top: 24px; }
   @media (min-width: 768px) {
     .top-article {
+      padding-left: 24px;
+      padding-right: 24px;
       display: flex;
       justify-content: space-between;
       margin-top: 32px; } }
   @media (min-width: 1366px) {
     .top-article {
-      margin-top: 0; } }
+      margin-top: 0; 
+      padding-left: 32px;
+      padding-right: 32px;} }
   .top-article__wrapper {
     overflow: hidden;
     font-size: 14px;
@@ -500,11 +504,13 @@ body {
     height: 90px; }
     @media (min-width: 768px) {
       .top-article__wrapper {
-        margin: 0 0 0 24px;
+        max-width: 312px;
+        margin: 0;
+        padding-top: 24px;
         height: 160px; } }
-    @media (min-width: 1120px) {
+    @media (min-width: 1366px) {
       .top-article__wrapper {
-        margin: 9px 0 0 34px; } }
+        max-width: 490px; } }
   .top-article__paragraph {
     padding: 0;
     margin-top: 0;
@@ -527,15 +533,12 @@ body {
         width: auto;
         align-self: flex-start;
         border-radius: 6px;
-        margin-top: 0;
-        margin-right: 24px;
-        margin-left: 48px;
+        margin-left: auto;
         max-height: 208px; } }
         @media (min-width: 1366px) {
           .top-article__picture {
-            margin-left: 36px;
-            margin-top: 0;
-        margin-right: 29px;
+            /* margin-left: 36px;
+            margin-top: 0; */
         max-height: 307px; } }
 
 .show-all-btn, .take-offer {
@@ -948,7 +951,8 @@ body {
     @media (min-width: 768px) {
       .swiper__wrapper--price {
         display: block;
-        height: auto; } }
+        height: auto; 
+      border-radius: 6px;} }
   @media (min-width: 768px) {
     .swiper__slide--price {
       height: auto; } }
@@ -1001,6 +1005,11 @@ body {
     .swiper__card--prices {
       height: 200px;
       background-color: white; }
+      @media (min-width: 768px) {
+        .swiper__card--prices{
+          border-radius: 0;
+        }
+      }
       .swiper__card--prices div {
         margin-left: 16px;
         margin-top: 16px;
@@ -1073,7 +1082,11 @@ body {
           border-bottom: solid 1px #eaeaea !important;
           margin: 0;
           align-items: center;
-          border: none; } }
+          border: none; } 
+          .swiper__slide--price:last-of-type .swiper__card--prices{
+            border-bottom-color: transparent !important;
+          }
+        }
   .swiper-pagination {
     position: static;
     margin-top: 16px;
