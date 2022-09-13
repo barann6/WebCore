@@ -1,0 +1,26 @@
+.section-title {
+  background: linear-gradient(-270deg, $light-gray-background 0%, white 100%);
+  padding: 16px;
+
+  @media (min-width: $screen-md) {
+    padding: 16px 24px;
+  }
+
+  @media (min-width: $screen-lg) {
+    padding: 16px 32px;
+  }
+
+  h2 {
+    font: {
+      family: TT Lakes;
+      size: 16px;
+      weight: normal;
+    }
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: $gray-active;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}

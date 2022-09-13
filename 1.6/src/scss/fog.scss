@@ -1,0 +1,15 @@
+.fog {
+  // display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+	top: 0;
+	z-index: 4;
+  background: white;
+  mix-blend-mode: normal;
+	--opacity-var: 0;
+  opacity: var(--opacity-var);
+	transition-duration: 500ms;
+
+  overscroll-behavior-y: contain;
+}

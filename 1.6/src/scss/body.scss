@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  @media (min-width: $screen-lg) {
+    display: flex;
+    &::before {
+      content: '';
+      position: relative;
+      width: 320px;
+      flex-shrink: 0;
+    }
+  }
+}
