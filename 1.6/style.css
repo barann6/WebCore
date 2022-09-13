@@ -77,7 +77,6 @@ body {
     .side-menu {
       display: flex;
       position: fixed;
-      height: auto;
       box-shadow: none;
       transform: none;
       -ms-scroll-chaining: chained;
